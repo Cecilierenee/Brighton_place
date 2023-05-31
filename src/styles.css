@@ -1,0 +1,114 @@
+body {
+    background-color: #000;
+}
+.nav {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    display: flex;
+    min-height: 56px;
+    align-items: center;
+    margin-bottom: 25px;
+    
+}
+/* .bg_gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  filter: blur(123px);
+} */
+
+.left, .middle, .right {
+    flex: 1;
+  }
+
+.middle {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .right .sm_links {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+  }
+  
+  .item {
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  
+  .middle a {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .middle a:hover {
+    color: #18975c;
+  }
+  
+  .middle .dot {
+    width: 6px;
+    height: 6px;
+    background: #18975c;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .middle a:nth-child(1):hover ~ .dot{
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .middle a:nth-child(2):hover ~ .dot{
+    -webkit-transform: translateX(110px);
+    transform: translateX(110px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .middle a:nth-child(3):hover ~ .dot{
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .middle a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(285px);
+    transform: translateX(285px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
